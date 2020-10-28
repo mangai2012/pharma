@@ -22,5 +22,5 @@ public class NewTest {
 	public void afterTest() {
 		driver.quit();		
 		// testing1
-	}		//final
+	}		//final1
 }
