@@ -8,8 +8,8 @@
     <classes>
       <class name="com.qa.demologintest.DemoLoginTestClass"/>
       <class name="com.qa.demologintest.DemoLogoutTestClass"/>
-      <class name="com.qa.demoProfiletest.DemoLoginTestClass"/>
-      <class name="com.qa.demoSkillstest.DemoLogoutTestClass"/>
+      <class name="com.qa.demologintest.DemoProfileTestClass"/>
+      <class name="com.qa.demologintest.DemoSkillsTestClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
