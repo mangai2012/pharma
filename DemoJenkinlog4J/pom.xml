@@ -26,18 +26,24 @@
             <groupId>org.testng</groupId>								
             <artifactId>testng</artifactId>								
             <version>6.8.8</version>								
-
-  <scope>test</scope>  
+           <scope>compile</scope>  
 </dependency>
 
- <dependency>
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
 			<groupId>com.relevantcodes</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
-		
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
   </dependencies>
-	    	<build>
+    	<build>
   		<plugins>
   			<plugin>
   				<groupId>org.apache.maven.plugins</groupId>
