@@ -6,10 +6,11 @@
 	</listeners>
   <test name="Test">
     <classes>
-      <class name="com.qa.demologintest.DemoLoginTestClass"/>
+    <!--   <class name="com.qa.demologintest.DemoLoginTestClass"/>
       <class name="com.qa.demologintest.DemoLogoutTestClass"/>
       <class name="com.qa.demologintest.DemoProfileTestClass"/>
-      <class name="com.qa.demologintest.DemoSkillsTestClass"/>
-    </classes>
+      <class name="com.qa.demologintest.DemoSkillsTestClass"/>  --> 
+      <class name="com.qa.datadrivenframeworkutil.ExcelDataProvider"/>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
