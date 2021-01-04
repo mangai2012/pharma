@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-03T23:52:29Z" name="Suite" finished-at="2021-01-03T23:52:38Z" duration-ms="8353">
+    <groups>
+    </groups>
+    <test started-at="2021-01-03T23:52:29Z" name="Test" finished-at="2021-01-03T23:52:38Z" duration-ms="8353">
+      <class name="com.pagetesting.OpenPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pagetesting.OpenPage@659499f1]" started-at="2021-01-04T05:22:29Z" name="setup" finished-at="2021-01-04T05:22:33Z" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.pagetesting.OpenPage@659499f1]" started-at="2021-01-04T05:22:33Z" name="login" finished-at="2021-01-04T05:22:37Z" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.pagetesting.OpenPage@659499f1]" started-at="2021-01-04T05:22:37Z" name="teardown" finished-at="2021-01-04T05:22:38Z" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.pagetesting.OpenPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
