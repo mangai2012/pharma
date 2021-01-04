@@ -1,5 +1,5 @@
 package com.pagetesting;
-//checkin edit option
+//checkin edit option with detail
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
