@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-20T22:06:18 IST" name="Suite" finished-at="2020-12-20T22:06:43 IST" duration-ms="24794">
+    <groups>
+    </groups>
+    <test started-at="2020-12-20T22:06:18 IST" name="Test" finished-at="2020-12-20T22:06:43 IST" duration-ms="24794">
+      <class name="com.qa.datadrivenframeworkutil.ExcelDataProvider">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:19 IST" name="setup" finished-at="2020-12-20T22:06:22 IST" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:22 IST" name="test1" data-provider="test1data" finished-at="2020-12-20T22:06:31 IST" duration-ms="8711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mangai.sampletest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sapani123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:31 IST" name="teardown" finished-at="2020-12-20T22:06:32 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:32 IST" name="setup" finished-at="2020-12-20T22:06:35 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:35 IST" name="test1" data-provider="test1data" finished-at="2020-12-20T22:06:42 IST" duration-ms="7186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.datadrivenframeworkutil.ExcelDataProvider@59d016c9]" started-at="2020-12-20T22:06:42 IST" name="teardown" finished-at="2020-12-20T22:06:43 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.datadrivenframeworkutil.ExcelDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -13,7 +13,7 @@ public class ExcelDataProvider {
 
 	@BeforeMethod
 	public void setup(){
-	System.setProperty("webdriver.chrome.driver","C:/Program Files/Selenium_2.40/Driverclassfiles/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Selenium\\drivers\\chromedriver.exe");
 	 driver = new ChromeDriver();
 	}
 	
@@ -34,7 +34,7 @@ public class ExcelDataProvider {
 	
 		@DataProvider(name = "test1data")
 	    public Object[][] getData() {
-		    String excelPath = "C:\\Users\\VijayGanesan\\git\\pharma\\DemoJenkinlog4J\\excel\\testdata.xlsx";
+		    String excelPath = "C:\\Users\\admin\\git\\pharma\\DemoJenkinlog4J\\excel\\testdata.xlsx";
 		    Object data[][] = testData(excelPath, "Dev");
 		    return data;
 		
